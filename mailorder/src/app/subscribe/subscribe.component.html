@@ -1,0 +1,55 @@
+<app-header></app-header>
+
+<form [formGroup]="prescriptionForm" (ngSubmit)="onSubmit()">
+    <div class="form-group form-outline mb-4">
+        <!-- <select id="memberLocation" class="form-control" formControlName="memberLocation" ngModel="drug">
+            <option *ngFor="let location of locationList">
+                {{location}}
+            </option>
+
+        </select> -->
+
+        <div class="form-group form-outline mb-4">
+            <!-- <input [attr.disabled]="disabled ? '' : null"/> -->
+            <input type = "text" id="memberLocation" [(ngModel)] = "dloc" class="form-control" formControlName="memberLocation" [attr.disabled]="this.dloc!=''? true:false"/>
+
+        </div>      
+
+           
+        <!-- <input id="memberLocation" type="text" placeholder="Member Location" formControlName="memberLocation" class="form-control"> -->
+    </div>
+    <!-- <div class="form-group form-outline mb-4">
+                       
+                        <input id="date" type="text" placeholder="Date" formControlName="date" class="form-control">
+                    </div> -->
+    <div class="form-group form-outline mb-4">
+
+        <input id="quantity" type="number" placeholder="Quantity" formControlName="quantity" class="form-control">
+    </div>
+    <div class="form-group form-outline mb-4">
+        <input id="drugName" type="text" placeholder="Drug Name" formControlName="drugName" class="form-control" [(ngModel)] = "dname" [attr.disabled]="this.dname!=''? true:false">
+    </div>
+    <div class="form-group form-outline mb-4">
+
+        <input id="doctorName" type="text" placeholder="Doctor Name" formControlName="doctorName" class="form-control">
+    </div>
+    <div class="form-group form-outline mb-4">
+
+        <select id=course class="form-control" formControlName="course" placeholder="Select your location">
+            <option *ngFor="let course of courseList">
+                {{course}}
+            </option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <input class="btn btn-primary btn-lg btn-block" type="submit" value="Subscribe">
+    </div>
+</form>
+
+
+<div *ngIf="status">
+
+    <h1>{{status.statusDescription}}</h1>
+</div>
+<!-- <div class = ""></div> -->

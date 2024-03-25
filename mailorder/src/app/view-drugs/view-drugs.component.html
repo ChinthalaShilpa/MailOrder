@@ -1,0 +1,64 @@
+<app-header></app-header>
+
+
+<form [formGroup]="searchContent" (ngSubmit)="onSearch()">
+    <div>
+        <input type="search" id="form1" class="form-control" formControlName="searchDrug"
+            placeholder="Enter drug name or drug id" />
+    </div>
+    <div>
+        <strong>Filter By Location</strong>
+    </div>
+    <div>
+        <!-- <label for="form2">Filter By Location</label> -->
+        <select id="form2" class="form-control" formControlName="searchdrugbylocation">
+            <option *ngFor="let location of locationList">
+                {{location}}
+            </option>
+
+        </select>
+
+    </div>
+    <div>
+        <input type="submit" class="btn btn-primary form-control" path="" name="Search" value="Search" />
+    </div>
+
+</form>
+
+
+<div class="table-div">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th *ngFor="let head of headElements" scope="col">{{ head }} </th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+
+            <tr *ngFor="let drugDetail of drugs">
+
+                <th scope="row">{{ drugDetail.drugId }}</th>
+
+                <td>{{ drugDetail.drugName }}</td>
+
+                <td>{{ drugDetail.manufacturerName }}</td>
+
+                <td>{{ drugDetail.manufacturedDate | date : "mediumDate" }}</td>
+
+                <td>{{ drugDetail.expiryDate | date : "mediumDate" }}</td>
+
+                <td>{{drugDetail.quantity}}</td>
+
+                <td>{{drugDetail.location}}</td>
+
+                <td><input type="button" class="btn btn-primary form-control" (click)="getSubscribe(drugDetail.drugName, drugDetail.location)"
+                        value="subscribe"></td>
+
+
+            </tr>
+
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,44 @@
+body{
+    background-color:white;
+}
+.cont{
+    text-align: center;
+    border: 0px solid black;
+    width: 100%;
+    height: 100%;
+    padding-top:30px;
+}
+.cont1{
+    padding-top: 50px;
+}
+#up-button{
+    background-color:indigo;
+    color:white;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    margin-top: 1rem;
+    padding:0.5rem;
+    padding-inline-start: 0%;
+}
+#up-button:hover{
+    background-color: teal;
+    cursor:pointer;
+}
+#up-text{
+    font-size:15px;
+}
+p{
+    font-size: large;
+    color:black;
+    
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: red;
+}
+#text-note{
+    padding-top:30px;
+    color:brown;
+}

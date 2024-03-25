@@ -1,0 +1,27 @@
+form{
+    padding-top:100px;
+    padding-left: 200px;
+    justify-content: center;
+
+}
+
+form div{
+    padding: 10px;
+    padding-left: 50px;
+    float: left;
+}
+
+#form1{
+    width:250px;
+}
+
+.table-div{
+    padding-top: 75px;
+    margin-left: 150px;
+    margin-right:150px;
+    justify-content: center;
+}
+
+/* input{
+
+} */

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: 2068359
+Build-Jdk: 11.0.13
+Implementation-Title: drug_microservice
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.pack
+Implementation-URL: https://spring.io/projects/spring-boot/drug_microser
+ vice
+Created-By: Maven Integration for Eclipse
+

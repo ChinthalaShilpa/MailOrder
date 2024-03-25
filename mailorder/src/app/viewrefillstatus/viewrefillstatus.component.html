@@ -1,0 +1,13 @@
+<app-header></app-header>
+
+<div class="status-div">
+  <h1>Refill Status</h1>
+  <hr>
+  <p>Refill Id : {{refillOrder.refillOrderId}}</p>
+  <p>Refill Date : {{refillOrder.refillDate | date:"mediumDate"}}</p>
+  <p>Refill Subscription Id: {{refillOrder.subsId}}</p>
+  <p *ngIf="refillOrder.paymentStatus else notpaid">Payment status : <span style="color:green">Paid</span></p>
+  <ng-template #notpaid>
+    <p>Payment status : <span style="color:red"> Not Paid</span></p>
+  </ng-template>
+</div>

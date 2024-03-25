@@ -1,0 +1,73 @@
+<app-header></app-header>
+
+<div class="table-div">
+  <div class="table-one">
+    Refill Dues
+  </div>
+  <table class="table table-striped">
+
+    <thead>
+
+      <tr>
+
+        <th *ngFor="let head of headElements" scope="col">{{ head }} </th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let due of dueList">
+
+        <td>{{due.subsId}}</td>
+        <!-- <td>{{due.memId}}</td> -->
+
+        <td>{{due.drugName}}</td>
+
+        <td>{{due.daysLagging}}</td>
+
+      </tr>
+
+    </tbody>
+
+  </table>
+
+</div>
+
+<div class="table-div">
+  <div class="table-one">
+    Payment Dues
+  </div>
+<table class="table table-striped">
+
+  <thead>
+
+    <tr>
+
+      <th *ngFor="let head of headElements1" scope="col">{{ head }} </th>
+
+    </tr>
+
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let order of refillOrderList">
+
+      <td>{{order.refillOrderId}}</td>
+
+      <td>{{order.subsId}}</td>
+
+      <td>{{order.refillDate | date:"mediumDate"}}</td>
+
+      <td *ngIf="order.paymentStatus else notpaid">Paid</td>
+
+      <ng-template #notpaid>
+        <td>Not Paid</td>
+      </ng-template>
+
+    </tr>
+
+  </tbody>
+
+</table>
+</div>

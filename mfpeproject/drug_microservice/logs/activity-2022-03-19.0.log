@@ -1,0 +1,310 @@
+2022-03-19_08-01-57 [restartedMain] INFO  com.pack.DrugMicroserviceApplication - Starting DrugMicroserviceApplication using Java 11.0.13 on LTIN187842 with PID 19600 (C:\Users\2068359\Downloads\drug_microservice (1)\drug_microservice\target\classes started by 2068359 in C:\Users\2068359\Downloads\drug_microservice (1)\drug_microservice)
+2022-03-19_08-01-57 [restartedMain] INFO  com.pack.DrugMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=262c848a-31d6-3758-b664-8560af7c6d4d
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pack.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-03-19_08-01-57 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-19_08-01-57 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-19_08-01-57 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/drug] - Initializing Spring embedded WebApplicationContext
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1789 ms
+2022-03-19_08-01-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-03-19_08-01-57 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pharmacy_db'
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19_08-01-57 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/drug'
+2022-03-19_08-01-57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-03-19_08-01-57 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-03-19_08-01-57 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-03-19_08-01-57 [restartedMain] INFO  com.pack.DrugMicroserviceApplication - Started DrugMicroserviceApplication in 4.7 seconds (JVM running for 33686.879)
+2022-03-19_08-01-57 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-03-19_08-01-57 [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-19_08-01-57 [Thread-9] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19_08-01-57 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2022-03-19_08-01-57 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2022-03-19_08-17-44 [restartedMain] INFO  com.pack.DrugMicroserviceApplication - Starting DrugMicroserviceApplication using Java 11.0.13 on LTIN187842 with PID 19600 (C:\Users\2068359\Downloads\drug_microservice (1)\drug_microservice\target\classes started by 2068359 in C:\Users\2068359\Downloads\drug_microservice (1)\drug_microservice)
+2022-03-19_08-17-44 [restartedMain] INFO  com.pack.DrugMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=262c848a-31d6-3758-b664-8560af7c6d4d
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pack.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-03-19_08-17-44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-19_08-17-44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-19_08-17-44 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/drug] - Initializing Spring embedded WebApplicationContext
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1565 ms
+2022-03-19_08-17-44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2022-03-19_08-17-44 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pharmacy_db'
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19_08-17-44 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/drug'
+2022-03-19_08-17-44 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-03-19_08-17-44 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-03-19_08-17-44 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-03-19_08-17-44 [restartedMain] INFO  com.pack.DrugMicroserviceApplication - Started DrugMicroserviceApplication in 3.864 seconds (JVM running for 34633.917)
+2022-03-19_08-17-44 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-03-19_08-17-44 [Thread-16] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-19_08-17-44 [Thread-16] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19_08-17-44 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2022-03-19_08-17-44 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2022-03-19_08-18-01 [restartedMain] INFO  com.pack.DrugMicroserviceApplication - Starting DrugMicroserviceApplication using Java 11.0.13 on LTIN187842 with PID 19600 (C:\Users\2068359\Downloads\drug_microservice (1)\drug_microservice\target\classes started by 2068359 in C:\Users\2068359\Downloads\drug_microservice (1)\drug_microservice)
+2022-03-19_08-18-01 [restartedMain] INFO  com.pack.DrugMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=262c848a-31d6-3758-b664-8560af7c6d4d
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pack.feign.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-03-19_08-18-01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-03-19_08-18-01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-19_08-18-01 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/drug] - Initializing Spring embedded WebApplicationContext
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1819 ms
+2022-03-19_08-18-01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2022-03-19_08-18-01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/db'. Database available at 'jdbc:h2:mem:pharmacy_db'
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-19_08-18-01 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/drug'
+2022-03-19_08-18-01 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-03-19_08-18-01 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-03-19_08-18-01 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-03-19_08-18-01 [restartedMain] INFO  com.pack.DrugMicroserviceApplication - Started DrugMicroserviceApplication in 4.822 seconds (JVM running for 34652.082)
+2022-03-19_08-18-01 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  o.a.c.c.C.[.[localhost].[/drug] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 54 ms
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside get all drug detail method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-8] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-3] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-7] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-6] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-10] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-1] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-4] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-5] INFO  com.pack.controller.DrugController - Inside search by location and drugid method
+2022-03-19_08-18-01 [http-nio-8100-exec-9] INFO  com.pack.controller.DrugController - Inside search drug by name method
+2022-03-19_08-18-01 [http-nio-8100-exec-2] INFO  com.pack.controller.DrugController - Inside search by location and drugid method

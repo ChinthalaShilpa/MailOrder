@@ -1,0 +1,51 @@
+<app-header></app-header>
+
+<div class="table-div">
+    <table class="table table-striped">
+
+        <thead>
+
+            <tr>
+
+                <th *ngFor="let head of headElements" scope="col">{{ head }} </th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let subs of subscriptionList">
+
+                <td>{{subs.subscriptionId}}</td>
+
+                <td>{{subs.memberLocation}}</td>
+
+                <td>{{subs.drugName}}</td>
+                <td>{{subs.quantity}}</td>
+                <td>{{subs.date | date : "mediumDate"}}</td>
+
+                <td>{{subs.refillOccurrence}}</td>
+
+
+
+                <td><input type="button" class="btn btn-link" (click)="viewStatus(subs.subscriptionId)"
+                        value="View Status">
+                </td>
+
+                <td>
+                    <form [formGroup]="checkform" (ngSubmit)="orderRefill(subs.subscriptionId)">
+                        <input type="checkbox" formControlName="check">Paid
+                        <input type="submit" class="btn btn-primary" value="Refill">
+                    </form>
+
+                </td>
+
+                <td><input type="button" class="btn btn-danger form-control" (click)="unsubscribe(subs.subscriptionId)"
+                        value="Unsubscribe"></td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+</div>
